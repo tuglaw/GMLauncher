@@ -21,11 +21,11 @@ It is NOT affiliated with LocalGhost.
 
 5. Extract and place the "Hitman2Patcher.exe" inside the "Server" folder
 
-6. Place both "GMLauncher.exe" and "npm install.bat" inside the "Server" folder
+6. Place "GMLauncher.exe" and "npm install.bat" (optional) inside the "Server" folder
 
 7. (Optional) Place the “menudata” folder inside the “Server” folder to add the original emote images
 
-8. Run "npm install.bat" batch file to install all NodeJS dependencies (you can delete the file after)
+8. (Optional) If you want to host your own server, run "npm install.bat" batch file to install all NodeJS dependencies (you can delete the file after)
 
 9. Follow the rest of the instructions to add “GMLauncher.exe” as a Non-Steam Game and apply custom Steam artwork
 <br>

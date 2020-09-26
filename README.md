@@ -23,7 +23,7 @@ It is NOT affiliated with LocalGhost.
 
 6. Place "GMLauncher.exe" and "npm install.bat" (optional) inside the "Server" folder
 
-7. (Optional) Place the “menudata” folder inside the “Server” folder to add the original emote images
+7. (Optional) Place the “menudata” folder inside the “Server” folder to add the original emote images (only works if you're hosting your server)
 
 8. (Optional) If you want to host your own server, run "npm install.bat" batch file to install all NodeJS dependencies (you can delete the file after)
 

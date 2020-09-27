@@ -19,6 +19,14 @@ https://gitlab.com/grappigegovert/localghost/-/jobs/artifacts/master/download?jo
 
 3. Place both “GMLauncher.exe” and "Hitman2Patcher.exe" in the "HITMAN2" folder
 
+4. (Optional) Skip the original HITMAN 2 launcher:
+
+    4.1. Right-click HITMAN 2 on Steam and choose "Properties"
+    
+    4.2. Press the "Set Launch Options" button
+    
+    4.3. Type in "-SKIP_LAUNCHER" without the quotation marks and press OK. If you want to use DirectX 12, type in "-SKIP_LAUNCHER -d3d12".
+
 **Note:** GMLauncher requires the Microsoft .NET Framework 4.x redistributable package.
 
 <br>

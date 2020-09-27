@@ -11,7 +11,7 @@ It is NOT affiliated with LocalGhost.
 
 ## Launcher Instructions
 
-1.Download LocalGhost’s "Hitman2Patcher" from:<br>
+1. Download LocalGhost’s "Hitman2Patcher" from:<br>
 https://gitlab.com/grappigegovert/localghost/-/jobs/artifacts/master/download?job=build_patcher
 
 2. Place both “GMLauncher.exe” and "Hitman2Patcher.exe" in the "HITMAN2" folder

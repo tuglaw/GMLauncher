@@ -17,7 +17,7 @@ https://gitlab.com/grappigegovert/localghost/-/jobs/artifacts/master/download?jo
 2. Place both “GMLauncher.exe” and "Hitman2Patcher.exe" in the "HITMAN2" folder
 
 **Note:** GMLauncher requires the Microsoft .NET Framework 4.x redistributable package.
-
+<br>
 
 ## Server Instructions
 

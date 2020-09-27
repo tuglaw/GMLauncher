@@ -11,10 +11,13 @@ It is NOT affiliated with LocalGhost.
 
 ## Launcher Instructions
 
-1. Download LocalGhost’s "Hitman2Patcher" from:<br>
+1. Download the latest version of "GMLauncher" from:<br>
+https://github.com/tuglaw/GMLauncher/releases/latest
+
+2. Download LocalGhost’s "Hitman2Patcher" from:<br>
 https://gitlab.com/grappigegovert/localghost/-/jobs/artifacts/master/download?job=build_patcher
 
-2. Place both “GMLauncher.exe” and "Hitman2Patcher.exe" in the "HITMAN2" folder
+3. Place both “GMLauncher.exe” and "Hitman2Patcher.exe" in the "HITMAN2" folder
 
 **Note:** GMLauncher requires the Microsoft .NET Framework 4.x redistributable package.
 

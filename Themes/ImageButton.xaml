@@ -35,6 +35,9 @@
             <Trigger Property="IsPressed" Value="true">
                 <Setter TargetName="ButtonImage" Property="Source" Value="{Binding PressedImage, RelativeSource={RelativeSource TemplatedParent}}" />
             </Trigger>
+            <Trigger Property="IsEnabled" Value="false">
+                <Setter TargetName="ButtonImage" Property="Source" Value="{Binding DisabledImage, RelativeSource={RelativeSource TemplatedParent}}" />
+            </Trigger>
         </ControlTemplate.Triggers>
     </ControlTemplate>
 
@@ -50,6 +53,7 @@
         <Setter Property="NormalImage" Value=""/>
         <Setter Property="HoverImage"  Value="" />
         <Setter Property="PressedImage" Value="" />
+        <Setter Property="DisabledImage" Value="" />
         <Setter Property="Foreground" Value="{DynamicResource TextBrush}" />
         <Setter Property="Background" Value="{DynamicResource ButtonBackgroundBrush}" />
         <Setter Property="BorderBrush" Value="{DynamicResource ButtonBorderBrush}" />

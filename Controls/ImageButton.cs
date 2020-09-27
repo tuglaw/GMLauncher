@@ -53,6 +53,16 @@ namespace ImageButton.Controls
             DependencyProperty.Register("PressedImage", typeof(string), typeof(ImageButton),
             new FrameworkPropertyMetadata("", FrameworkPropertyMetadataOptions.AffectsRender, ImageSourceChanged));
 
+        public string DisabledImage
+        {
+            get { return (string)GetValue(DisabledImageProperty); }
+            set { SetValue(DisabledImageProperty, value); }
+        }
+
+        public static readonly DependencyProperty DisabledImageProperty =
+            DependencyProperty.Register("DisabledImage", typeof(string), typeof(ImageButton),
+            new FrameworkPropertyMetadata("", FrameworkPropertyMetadataOptions.AffectsRender, ImageSourceChanged));
+
         private static void ImageSourceChanged(DependencyObject sender, DependencyPropertyChangedEventArgs e)
         {
             Application.GetResourceStream(new Uri("pack://application:,,," + (string)e.NewValue));

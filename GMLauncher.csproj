@@ -37,7 +37,7 @@
     <MapFileExtensions>false</MapFileExtensions>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <ApplicationVersion>1.1.0.0</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>false</BootstrapperEnabled>
@@ -138,7 +138,7 @@
     <None Include="GhostModeLauncher_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controls\AssemblyInfo1.cs" />
+    <Compile Include="Controls\AssemblyInfo.cs" />
     <Compile Include="Controls\Launcher.cs" />
     <Compile Include="Controls\MainWindow.xaml.cs" />
     <Compile Include="Controls\ImageButton.cs" />
@@ -167,7 +167,9 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Resources\server_disabled.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>

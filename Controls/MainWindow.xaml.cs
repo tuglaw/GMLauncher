@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System.IO;
+using System.Windows;
 using System.Windows.Input;
 
 namespace GMLauncher
@@ -8,6 +9,12 @@ namespace GMLauncher
         public MainWindow()
         {
             InitializeComponent();
+
+            //if (!File.Exists(@"E:\SteamLibrary\steamapps\common\HITMAN2\Server\serb.js"))
+            if (!File.Exists(@"Server\serb.js"))
+            {
+                ServerButton.IsEnabled = false;
+            }
         }
 
         private void PlayButton_Click(object sender, RoutedEventArgs e)

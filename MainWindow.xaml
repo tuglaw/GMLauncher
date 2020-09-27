@@ -17,21 +17,22 @@
 
     <StackPanel Height="158" VerticalAlignment="Top" Margin="79,143,0,0" Width="222" HorizontalAlignment="Left">
         <Controls:ImageButton x:Name="PlayButton"
-                              HoverImage="/GMLauncher;component/Resources/play_hover.png"
-                              NormalImage="/GMLauncher;component/Resources/play_normal.png"
-                              PressedImage="/GMLauncher;component/Resources/play_pressed.png"
-                              Click="PlayButton_Click"
-                              IsDefault="true"/>
+                                HoverImage="/GMLauncher;component/Resources/play_hover.png"
+                                NormalImage="/GMLauncher;component/Resources/play_normal.png"
+                                PressedImage="/GMLauncher;component/Resources/play_pressed.png"
+                                Click="PlayButton_Click"
+                                IsDefault="true"/>
         <Controls:ImageButton x:Name="ServerButton"
-                              HoverImage="/GMLauncher;component/Resources/server_hover.png"
-                              NormalImage="/GMLauncher;component/Resources/server_normal.png"
-                              PressedImage="/GMLauncher;component/Resources/server_pressed.png"
-                              Click="ServerButton_Click"/>
+                                HoverImage="/GMLauncher;component/Resources/server_hover.png"
+                                NormalImage="/GMLauncher;component/Resources/server_normal.png"
+                                PressedImage="/GMLauncher;component/Resources/server_pressed.png"
+                                DisabledImage="/GMLauncher;component/Resources/server_disabled.png"
+                                Click="ServerButton_Click"/>
         <Controls:ImageButton x:Name="QuitButton"
-                              HoverImage="/GMLauncher;component/Resources/quit_hover.png"
-                              NormalImage="/GMLauncher;component/Resources/quit_normal.png"
-                              PressedImage="/GMLauncher;component/Resources/quit_pressed.png"
-                              Click="QuitButton_Click"
-                              IsCancel="true"/>
+                                HoverImage="/GMLauncher;component/Resources/quit_hover.png"
+                                NormalImage="/GMLauncher;component/Resources/quit_normal.png"
+                                PressedImage="/GMLauncher;component/Resources/quit_pressed.png"
+                                Click="QuitButton_Click"
+                                IsCancel="true"/>
     </StackPanel>
 </Window>

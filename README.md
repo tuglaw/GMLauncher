@@ -44,3 +44,5 @@ https://gitlab.com/grappigegovert/localghost/-/archive/master/localghost-master.
 (example: <Steam folder>\steamapps\common\HITMAN2\Server)
 
 5. Run the "npm install.bat" in the “Server” folder to install all NodeJS dependencies (you can delete the file after)
+
+6. You might need to reboot your machine.
